@@ -1,0 +1,19 @@
+1. Generate this week's FMCG M&A newsletter.
+
+2. What are the top FMCG acquisitions in the last 30 days?
+
+3. Show all FMCG investment activities above $50M.
+
+4. Which FMCG companies received funding recently?
+
+5. Summarize beverage-sector acquisitions.
+
+6. What trends are emerging in FMCG deal activity?
+
+7. Show the most credible FMCG deal sources.
+
+8. Compare this week's FMCG deals with last week's.
+
+9. Which regions have the highest FMCG M&A activity?
+
+10. Export newsletter to PPT, Excel and Word.
