@@ -181,7 +181,7 @@ Users can ask questions about:
 ## Clone Repository
 
 ```bash
-git clone <your-github-repository-url>
+git clone <hhttps://github.com/rahul6796/FMCG-agent>
 
 cd fmcg-newsletter-agent
 ```
