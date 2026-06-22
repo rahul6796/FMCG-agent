@@ -332,10 +332,279 @@ The API key is never exposed to users.
 
 ---
 
+
+
+
+# Future Improvements & Production Enhancements
+
+## Current Scope
+
+This project is designed as a proof-of-concept (POC) demonstrating:
+
+* Real-time FMCG news aggregation
+* De-duplication
+* Relevance filtering
+* Credibility scoring
+* Newsletter generation
+* Interactive Streamlit dashboard
+
+The implementation prioritizes simplicity, transparency, and explainability.
+
+---
+
+# Potential Enhancements for Production Deployment
+
+## 1. Expanded News Coverage
+
+Current implementation uses a limited number of RSS feeds.
+
+Future improvements:
+
+* Google News RSS
+* Reuters Business
+* Bloomberg Deals
+* Crunchbase News
+* FMCG company press releases
+* Regulatory filings
+* Financial news APIs
+
+Benefits:
+
+* Better coverage
+* More accurate deal tracking
+* Reduced risk of missing important announcements
+
+---
+
+## 2. Advanced Deal Detection
+
+Current relevance filtering relies on GPT classification.
+
+Production version could include:
+
+* Fine-tuned classification models
+* Industry-specific taxonomies
+* Entity extraction
+* Event extraction
+
+Deal types:
+
+* Acquisition
+* Merger
+* Joint Venture
+* Investment
+* Funding
+* Divestiture
+* Strategic Partnership
+
+Benefits:
+
+* Higher precision
+* Lower false positives
+
+---
+
+## 3. RAG-Based Question Answering
+
+Current implementation uses article context directly.
+
+Future enhancement:
+
+* Vector Database integration
+
+Examples:
+
+* Pinecone
+* Chroma
+* FAISS
+* Azure AI Search
+
+Benefits:
+
+* Faster retrieval
+* Improved accuracy
+* Better handling of large news archives
+
+---
+
+## 4. Multi-Agent Review Workflow
+
+Current workflow:
+text
+Fetch
+→ Clean
+→ Deduplicate
+→ Relevance
+→ Credibility
+→ Newsletter
+```
+
+Future workflow:
+
+```text
+Research Agent
+→ Fact Check Agent
+→ Credibility Agent
+→ Editorial Agent
+→ Newsletter Agent
+```
+
+Benefits:
+
+* Higher quality output
+* Reduced hallucinations
+* Better business summaries
+
+---
+
+## 5. Source Credibility Enhancement
+
+Current credibility scoring uses trusted domain matching.
+
+Production enhancement:
+
+* Domain authority scoring
+* Publisher reputation metrics
+* Historical accuracy tracking
+* Confidence scoring
+
+Benefits:
+
+* More reliable intelligence reports
+
+---
+
+## 6. Automated Scheduling
+
+Current implementation requires manual execution.
+
+Future enhancement:
+
+* Daily newsletter generation
+* Weekly executive summaries
+* Automated report distribution
+
+Technologies:
+
+* Airflow
+* Azure Data Factory
+* AWS EventBridge
+* GitHub Actions
+
+Benefits:
+
+* Fully automated intelligence pipeline
+
+---
+
+## 7. Email Distribution
+
+Future enhancement:
+
+* Automated newsletter delivery
+
+Channels:
+
+* Email
+* Microsoft Teams
+* Slack
+* SharePoint
+
+Benefits:
+
+* Improved stakeholder adoption
+
+---
+
+## 8. Analytics Dashboard
+
+Future enhancement:
+
+* Deal trend analysis
+* Geographic distribution
+* Industry segmentation
+* Company-level activity tracking
+
+Benefits:
+
+* Strategic decision support
+
+---
+
+## 9. Human-in-the-Loop Validation
+
+Future enhancement:
+
+* Analyst review workflow
+* Approval before publication
+* Feedback collection
+
+Benefits:
+
+* Higher confidence outputs
+* Better governance
+
+---
+
+## 10. Enterprise Security & Compliance
+
+Production deployment considerations:
+
+* Secret management
+* Role-based access control
+* Audit logging
+* Data retention policies
+* GDPR compliance
+* Enterprise authentication (SSO)
+
+Benefits:
+
+* Secure enterprise adoption
+
+---
+
+# Assumptions
+
+This solution assumes:
+
+1. Publicly available news sources provide sufficient deal information.
+2. RSS feeds remain accessible.
+3. OpenAI GPT-4o is available for relevance classification and newsletter generation.
+4. Credibility scoring is based on predefined trusted domains.
+5. Newsletter generation is intended for business intelligence purposes and should not be considered financial advice.
+
+---
+
+# Limitations
+
+Current implementation limitations include:
+
+* Limited source coverage
+* No historical news archive
+* No vector database
+* Basic credibility scoring
+* No analyst review workflow
+* Dependence on external LLM services
+
+These limitations can be addressed through the future enhancements described above.
+
+---
+
+# Business Value
+
+The solution enables business users to:
+
+* Monitor FMCG M&A activity
+* Track investment trends
+* Reduce manual research effort
+* Receive concise executive summaries
+* Quickly identify significant market developments
+
+This creates a scalable foundation for an FMCG market intelligence platform.
+
 # Author
 
 Rahul Prajapati
 Data Science | GenAI | Agentic AI
-GitHub: <your-github-link>
-LinkedIn: <your-linkedin-link>
-
+GitHub: <https://github.com/rahul6796>
+LinkedIn: <https://www.linkedin.com/in/rahul-prajapati-728727175/>
